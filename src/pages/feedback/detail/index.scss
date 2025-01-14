@@ -1,0 +1,54 @@
+.feedback-detail {
+  padding: 1.2rem;
+  
+  .detail-header {
+    padding: 1.2rem;
+    background: #fff;
+    border-radius: 0.8rem;
+    margin-bottom: 1.2rem;
+    
+    .address {
+      display: block;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 0.8rem;
+    }
+    
+    .service {
+      display: block;
+      font-size: 1.3rem;
+      color: #666;
+      margin-bottom: 0.6rem;
+    }
+    
+    .date {
+      font-size: 1.2rem;
+      color: #999;
+    }
+  }
+  
+  .detail-body {
+    background: #fff;
+    border-radius: 0.8rem;
+    padding: 1.2rem;
+    
+    .description {
+      font-size: 1.4rem;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 1.5rem;
+    }
+    
+    .images-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      
+      .image {
+        width: 100%;
+        border-radius: 0.8rem;
+      }
+    }
+  }
+} 

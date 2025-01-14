@@ -1,0 +1,18 @@
+.layout {
+  min-height: 100vh;
+  background: #f5f5f5;
+
+  &.desktop {
+    .content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  }
+
+  &.mobile {
+    .content {
+      padding: 10px;
+    }
+  }
+} 

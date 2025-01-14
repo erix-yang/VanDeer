@@ -1,0 +1,31 @@
+{
+  "name": "dust-cleaning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "烘干机通风管道清洁服务",
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "build:h5": "taro build --type h5",
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "dev:h5": "npm run build:h5 -- --watch"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "@tarojs/components": "^3.6.5",
+    "@tarojs/react": "^3.6.5",
+    "@tarojs/runtime": "^3.6.5",
+    "@tarojs/taro": "^3.6.5",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@tarojs/mini-runner": "^3.6.5",
+    "@tarojs/webpack-runner": "^3.6.5",
+    "@types/react": "^17.0.2",
+    "@types/webpack-env": "^1.13.6",
+    "babel-preset-taro": "^3.6.5",
+    "eslint-config-taro": "^3.6.5",
+    "stylelint": "9.3.0"
+  }
+}
